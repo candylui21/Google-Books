@@ -2,6 +2,10 @@
 
 Perfect Pairing is book search site. Start by typing into the search bar anything that interests you and let us help you find your perfect pairing! Perfect pairing utilises the Google Books API.
 
+# Live Site
+
+You can access the live site here:
+
 # MVP
 
 Create a page that allows users to search for books Page should include the following:
