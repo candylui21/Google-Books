@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.searchForm {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: RGB(191, 175, 160);
+}
+
+.title {
+  font-family: "Quattrocento", serif;
+  color: RGB(249, 246, 239);
+  font-size: 50px;
+  padding: 5px;
+}
+.title.hover {
+  font-style: italic;
+}
+.title__desc {
+  color: RGB(249, 246, 239);
+  font-family: "Fanwood Text", serif;
+  padding: 5px;
+  font-size: 20px;
+  opacity: 0;
+}
+.title__desc.hover {
+  font-family: "Fanwood Text", serif;
+  padding: 5px;
+  font-size: 20px;
+  opacity: 1;
+}
+
+#searchInput {
+  border: RGB(249, 246, 239);
+  width: 50vw;
+  height: 5vh;
+  font-family: "Fanwood Text", serif;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+#searchBtn {
+  border: RGB(249, 246, 239);
+  border-radius: 5px;
+  width: 10vw;
+  height: 5vh;
+  font-family: "Quattrocento", serif;
+  background-color: RGB(249, 246, 239);
+}
+
+.searchResults {
+  background-color: RGB(109, 106, 101);
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  background-color: RGB(249, 246, 239);
+}
+.searchResults__title {
+  width: 100vw;
+  font-family: "Quattrocento", serif;
+  color: RGB(109, 106, 101);
+  font-size: 50px;
+  text-align: center;
+}
+
+.book__card {
+  background-color: RGB(217, 203, 192);
+  color: RGB(109, 106, 101);
+  width: 300px;
+  height: 400px;
+  border: 1px solid RGB(217, 203, 192);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.book__img {
+  width: 150px;
+  height: 200px;
+  padding: 5px;
+}
+.book__title {
+  padding: 5px;
+  text-align: center;
+  font-family: "Quattrocento", serif;
+}
+.book__desc {
+  padding: 5px;
+  font-family: "Fanwood Text", serif;
+}
